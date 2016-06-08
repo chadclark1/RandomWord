@@ -20,7 +20,7 @@
 	<div class="container text-center">
 
 		<h4 class="col-md-6 col-md-offset-3 attempt">Random Word (attempt # <?php echo $counter ?>)</h4>
-		<h2 class="col-md-4 col-md-offset-4 random"><?php echo $random_string ?></h2>
+		<h2 class="col-md-4 col-md-offset-4 random"><?php echo $string ?></h2>
 		<div class=" col-md-12 text-center">
 			<form action="/random/generate" method="post">
 				  <button type="submit" class="btn btn-primary">Submit</button>
